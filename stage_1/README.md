@@ -1,4 +1,4 @@
-# 1. Function for translating DNA to Protein
+ # 1. Function for translating DNA to Protein
 translate_dna <- function(dna_sequence) {
   codon_table <- list(
     "ATA" = "I", "ATC" = "I", "ATT" = "I", "ATG" = "M",
