@@ -1,3 +1,21 @@
+
+Description
+
+This project contains a set of R functions designed to perform biological and computational tasks, including DNA translation, population growth modeling, and string comparison. The functions included are:
+
+translate_dna: Converts a DNA sequence into a protein sequence.
+
+logistic_growth: Simulates a logistic population growth curve with random lag and exponential phases.
+
+simulate_growth_curve: Generates a single logistic population growth dataset.
+
+generate_growth_curves: Produces 100 different growth curves.
+
+time_to_reach_80_percent: Determines the time required for a population to reach 80% of the carrying capacity.
+
+hamming_distance: Computes the Hamming distance between two strings.
+ 
+ 
  # 1. Function for translating DNA to Protein
 translate_dna <- function(dna_sequence) {
   codon_table <- list(
